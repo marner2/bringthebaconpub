@@ -1,0 +1,3 @@
+INDEX VERSION 1.126+/Users/Joshua/Documents/Code/UofI/BringTheBacon/.metadata/.plugins/org.eclipse.jdt.core
+698563775.index
+3067950427.index
