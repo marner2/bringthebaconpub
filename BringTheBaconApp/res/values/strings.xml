@@ -4,5 +4,7 @@
     <string name="app_name">Bring the Bacon</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_contribution_list">Contributions</string>
+    <string name="title_contribution_detail">Contribution Detail</string>
 
 </resources>

@@ -17,6 +17,26 @@
             android:name="com.bringthebacon.app.LoginActivity"
             android:label="@string/title_activity_login"
             android:windowSoftInputMode="adjustResize|stateVisible" >
+            <intent-filter>
+            	<action android:name="android.intent.action.MAIN" />
+            	<category android:name="android.intent.category.LAUNCHER" />
+        	</intent-filter>
+        </activity>
+        <activity
+            android:name="com.bringthebacon.app.ContributionListActivity"
+            android:label="@string/title_contribution_list" >
+            <intent-filter>
+            	<action android:name="android.intent.action.MAIN" />
+            	<category android:name="android.intent.category.LAUNCHER" />
+        	</intent-filter>
+        </activity>
+        <activity
+            android:name="com.bringthebacon.app.ContributionDetailActivity"
+            android:label="@string/title_contribution_detail"
+            android:parentActivityName=".ContributionListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ContributionListActivity" />
         </activity>
     </application>
 
